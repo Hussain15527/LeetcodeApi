@@ -58,9 +58,5 @@ const mediumQuestion = async (username) => {
     const hardQuestion = categoryQuestion[1].children[0].data;
     return hardQuestion;
 }
-const print = async () => {
-    const res = await mediumQuestion('mujtabah258');
-    console.log(res);
-}
 
 module.exports = { totalSolved, rank, name, totalActiveDays, maxStreak, hardQuestion, easyQuestion, mediumQuestion };
